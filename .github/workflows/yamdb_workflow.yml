@@ -23,10 +23,9 @@ jobs:
       run: |
         python -m flake8
         # перейти в папку, содержащую manage.py —
-        cd api_yamdb/
-        python manage.py test
         cd ..
         pytest
+
   # Сразу после них добавьте новую задачу: деплой приложения
   build_and_push_to_docker_hub:
       name: Push Docker image to Docker Hub
