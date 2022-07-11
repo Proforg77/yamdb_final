@@ -23,7 +23,6 @@ jobs:
         python -m flake8
         # перейти в папку, содержащую manage.py —
         cd api_yamdb/
-        # запустить написанные разработчиком тесты
         python manage.py test
         cd ..
         pytest
