@@ -9,6 +9,7 @@ services:
     env_file:
       - ./.env
   web:
+    build: ../api_yamdb
     image: proforg77/yamdb_final:latest
     volumes:
       - static_value:/app/static/
