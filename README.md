@@ -50,7 +50,9 @@ docker-compose exec web python manage.py collectstatic --no-input
 docker-compose exec web python manage.py createsuperuser
 ```
 Теперь портал будет доступен по адресу http://127.0.0.1 на 80 порту
+
 Админка находится по адресу http://127.0.0.1/admin
+
 Проект развёрнут для проверки по адресу http://130.193.43.169
 
 ### Автор: Пётр Шляпцев
